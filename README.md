@@ -1,8 +1,8 @@
 # shortlink-go
 
-## Godotenv
+## GoDotEnv
 
-项目在启动的时候依赖以下环境变量，但是在也可以在项目根目录创建.env文件设置环境变量便于使用(建议开发环境使用)
+项目在启动的时候依赖以下环境变量，但是在也可以在项目根目录创建 .env 文件设置环境变量便于使用 (建议开发环境使用)
 
 ```shell
 MYSQL_DSN="db_user:db_password@tcp(localhost)/db_name?charset=utf8&parseTime=True&loc=Local" # Mysql连接地址
@@ -20,4 +20,4 @@ HOST="https://i7f.cn/" #配置处理的域名
 go run main.go
 ```
 
-项目运行后启动在3000端口
+项目运行后将监听 3000 端口
