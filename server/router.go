@@ -2,9 +2,7 @@ package server
 
 import (
 	"net/http"
-	"os"
-	"singo/api"
-	"singo/middleware"
+	"shortlink/api"
 
 	"github.com/gin-gonic/gin"
 )
@@ -12,10 +10,6 @@ import (
 // NewRouter 路由配置
 func NewRouter() *gin.Engine {
 	r := gin.Default()
-
-	// 中间件, 顺序不能改
-	r.Use(middleware.Session(os.Getenv("SESSION_SECRET")))
-	r.Use(middleware.Cors())
 
 	//加载静态文件
 	r.Static("/static", "view/static")

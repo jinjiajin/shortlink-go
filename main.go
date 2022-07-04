@@ -1,8 +1,8 @@
 package main
 
 import (
-	"singo/conf"
-	"singo/server"
+	"shortlink/conf"
+	"shortlink/server"
 )
 
 func main() {
@@ -11,5 +11,5 @@ func main() {
 
 	// 装载路由
 	r := server.NewRouter()
-	r.Run(":3000")
+	r.Run(":3001")
 }

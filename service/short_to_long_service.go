@@ -2,8 +2,8 @@ package service
 
 import (
 	"os"
-	"singo/model"
-	"singo/serializer"
+	"shortlink/model"
+	"shortlink/serializer"
 )
 
 // ShortToLongService

@@ -2,7 +2,7 @@ package serializer
 
 import (
 	"os"
-	"singo/model"
+	"shortlink/model"
 )
 
 // ShortUrl 用户序列化器

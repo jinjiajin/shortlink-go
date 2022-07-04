@@ -2,7 +2,7 @@ package api
 
 import (
 	"net/http"
-	"singo/service"
+	"shortlink/service"
 
 	"github.com/gin-gonic/gin"
 )

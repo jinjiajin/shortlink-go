@@ -1,8 +1,8 @@
 package service
 
 import (
-	"singo/model"
-	"singo/serializer"
+	"shortlink/model"
+	"shortlink/serializer"
 )
 
 // CountClicksService
